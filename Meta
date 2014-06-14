@@ -24,6 +24,10 @@ devel:
   irc: irc.freenode.net/kwim
   bug: https://github.com/ingydotnet/kwim-plugin-badge-pm/issues/
 
+=cpan:
+  include_testml: 1
+
 =travis:
   type: perl
+  testml: yes
   irc: irc.freenode.net#kwim
