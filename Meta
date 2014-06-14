@@ -1,0 +1,29 @@
+=meta: 0.0.1
+
+name: Kwim-Plugin-badge
+version: 0.0.1
+abstract: Kwim Badge Image Support
+homepage: http://kwim.org
+
+license: perl
+copyright: 2014. Ingy döt Net.
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+  homepage: http://ingy.net
+
+requires:
+  perl: 5.8.1
+  Kwim: 0
+
+devel:
+  git: git@github.org/ingydotnet/kwim-plugin-badge-pm
+  irc: irc.freenode.net/kwim
+  bug: https://github.com/ingydotnet/kwim-plugin-badge-pm/issues/
+
+=travis:
+  type: perl
+  irc: irc.freenode.net#kwim
