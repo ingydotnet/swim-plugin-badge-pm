@@ -15,7 +15,7 @@ install:
   git://github.com/ingydotnet/pegex-pm ../pegex-pm
 - cpanm --quiet --notest
   Devel::Cover::Report::Coveralls
-  Kwim
+  Swim
 
 script:
 - PERL5OPT=-MDevel::Cover=-coverage,statement,branch,condition,path,subroutine
@@ -28,6 +28,11 @@ after_success:
 notifications:
   irc:
     channels:
-    - irc.freenode.net#kwim
+    - irc.freenode.net#swimtext
     on_success: change
     on_failure: always
+
+# Hack to not run on tag pushes:
+branches:
+  except:
+  - /^v?[0-9]+\.[0-9]+/

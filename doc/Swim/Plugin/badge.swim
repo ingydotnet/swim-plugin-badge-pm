@@ -1,9 +1,9 @@
-Kwim::Plugin::badge
+Swim::Plugin::badge
 ===================
 
-Kwim Plugin for Badges
+Swim Plugin for Badges
 
-<badge travis coveralls ingydotnet/kwim-plugin-badge-pm>
+<badge travis coveralls ingydotnet/swim-plugin-badge-pm>
 
 = Synopsis
 

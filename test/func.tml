@@ -1,34 +1,34 @@
 === Travis badge
---- kwim
-<badge-travis ingydotnet/kwim-pm>
+--- swim
+<badge-travis ingydotnet/swim-pm>
 --- markdown
-[![Travis build status](https://travis-ci.org/ingydotnet/kwim-pm.png?branch=master)](https://travis-ci.org/ingydotnet/kwim-pm)
+[![Travis build status](https://travis-ci.org/ingydotnet/swim-pm.png?branch=master)](https://travis-ci.org/ingydotnet/swim-pm)
 --- pod
 =for html
-<a href="https://travis-ci.org/ingydotnet/kwim-pm"><img src="https://travis-ci.org/ingydotnet/kwim-pm.png" alt="kwim-pm"></a>
+<a href="https://travis-ci.org/ingydotnet/swim-pm"><img src="https://travis-ci.org/ingydotnet/swim-pm.png" alt="swim-pm"></a>
 
 \
 
 === Coveralls badge
---- kwim
-<badge-coveralls ingydotnet/kwim-pm>
+--- swim
+<badge-coveralls ingydotnet/swim-pm>
 --- markdown
-[![Coverage Status](https://coveralls.io/repos/ingydotnet/kwim-pm/badge.png?branch=master)](https://coveralls.io/r/ingydotnet/kwim-pm?branch=master)
+[![Coverage Status](https://coveralls.io/repos/ingydotnet/swim-pm/badge.png?branch=master)](https://coveralls.io/r/ingydotnet/swim-pm?branch=master)
 --- pod
 =for html
-<a href="https://coveralls.io/r/ingydotnet/kwim-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/kwim-pm/badge.png" alt="kwim-pm"></a>
+<a href="https://coveralls.io/r/ingydotnet/swim-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/swim-pm/badge.png" alt="swim-pm"></a>
 
 \
 
 === Multiple Badges
---- kwim
-<badge travis coveralls ingydotnet/kwim-pm>
+--- swim
+<badge travis coveralls ingydotnet/swim-pm>
 --- markdown
-[![Travis build status](https://travis-ci.org/ingydotnet/kwim-pm.png?branch=master)](https://travis-ci.org/ingydotnet/kwim-pm)
-[![Coverage Status](https://coveralls.io/repos/ingydotnet/kwim-pm/badge.png?branch=master)](https://coveralls.io/r/ingydotnet/kwim-pm?branch=master)
+[![Travis build status](https://travis-ci.org/ingydotnet/swim-pm.png?branch=master)](https://travis-ci.org/ingydotnet/swim-pm)
+[![Coverage Status](https://coveralls.io/repos/ingydotnet/swim-pm/badge.png?branch=master)](https://coveralls.io/r/ingydotnet/swim-pm?branch=master)
 --- pod
 =for html
-<a href="https://travis-ci.org/ingydotnet/kwim-pm"><img src="https://travis-ci.org/ingydotnet/kwim-pm.png" alt="kwim-pm"></a>
-<a href="https://coveralls.io/r/ingydotnet/kwim-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/kwim-pm/badge.png" alt="kwim-pm"></a>
+<a href="https://travis-ci.org/ingydotnet/swim-pm"><img src="https://travis-ci.org/ingydotnet/swim-pm.png" alt="swim-pm"></a>
+<a href="https://coveralls.io/r/ingydotnet/swim-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/swim-pm/badge.png" alt="swim-pm"></a>
 
 \

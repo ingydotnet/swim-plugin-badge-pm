@@ -1,9 +1,9 @@
 =meta: 0.0.1
 
-name: Kwim-Plugin-badge
-version: 0.0.2
-abstract: Kwim Badge Image Support
-homepage: http://kwim.org
+name: Swim-Plugin-badge
+version: 0.1.0
+abstract: Swim Badge Image Support
+homepage: http://swimtext.org
 
 license: perl
 copyright: 2014. Ingy döt Net.
@@ -17,12 +17,12 @@ author:
 
 requires:
   perl: 5.8.1
-  Kwim: 0.0.13
+  Swim: 0
 
 devel:
-  git: git@github.org/ingydotnet/kwim-plugin-badge-pm
-  irc: irc.freenode.net/kwim
-  bug: https://github.com/ingydotnet/kwim-plugin-badge-pm/issues/
+  git: git@github.org/ingydotnet/swim-plugin-badge-pm
+  irc: irc.freenode.net#swimtext
+  bug: https://github.com/ingydotnet/swim-plugin-badge-pm/issues/
 
 =cpan:
   include_testml: 1
@@ -30,4 +30,4 @@ devel:
 =travis:
   type: perl
   testml: yes
-  irc: irc.freenode.net#kwim
+  irc: irc.freenode.net#swimtext

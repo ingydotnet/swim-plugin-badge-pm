@@ -1,5 +1,5 @@
 use lib 'inc';
-use lib '../kwim-pm/lib';
+use lib '../swim-pm/lib';
 use lib '../pegex-pm/lib';
 use lib '../testml-pm/lib';
 
@@ -44,24 +44,24 @@ TestML->new(
 
 use base 'TestML::Bridge';
 use TestML::Util;
-use Kwim::Grammar;
-use Kwim::Byte;
-use Kwim::HTML;
-use Kwim::Markdown;
-use Kwim::Pod;
+use Swim::Grammar;
+use Swim::Byte;
+use Swim::HTML;
+use Swim::Markdown;
+use Swim::Pod;
 
 sub parse {
-    my ($self, $kwim, $emitter) = @_;
-    $kwim = $kwim->{value};
+    my ($self, $swim, $emitter) = @_;
+    $swim = $swim->{value};
     $emitter = $emitter->{value};
     my $parser = Pegex::Parser->new(
-        grammar => 'Kwim::Grammar'->new,
-        receiver => "Kwim::$emitter"->new,
+        grammar => 'Swim::Grammar'->new,
+        receiver => "Swim::$emitter"->new,
         debug => $debug,
     );
     eval 'use XXX; XXX($parser->grammar->tree)'
       if $tree;
-    str $parser->parse($kwim);
+    str $parser->parse($swim);
 }
 
 __DATA__
@@ -70,13 +70,13 @@ __DATA__
 #Diff = 1
 #Plan = 4
 
-Label = 'Kwim to ByteCode - $BlockLabel'
-*kwim.parse('Byte') == *byte
-Label = 'Kwim to HTML - $BlockLabel'
-*kwim.parse('HTML') == *html
-Label = 'Kwim to Markdown - $BlockLabel'
-*kwim.parse('Markdown') == *markdown
-Label = 'Kwim to Pod - $BlockLabel'
-*kwim.parse('Pod') == *pod
+Label = 'Swim to ByteCode - $BlockLabel'
+*swim.parse('Byte') == *byte
+Label = 'Swim to HTML - $BlockLabel'
+*swim.parse('HTML') == *html
+Label = 'Swim to Markdown - $BlockLabel'
+*swim.parse('Markdown') == *markdown
+Label = 'Swim to Pod - $BlockLabel'
+*swim.parse('Pod') == *pod
 
 %Include func.tml

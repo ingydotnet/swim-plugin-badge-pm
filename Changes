@@ -1,11 +1,6 @@
 ---
-version: 0.0.2
-date:    Sun Jun 15 11:33:33 PDT 2014
-changes:
-- Requires at least Kwim 0.0.13
-- Changes file was wrong
----
-version: 0.0.1
-date:    Sat Jun 14 10:32:01 PDT 2014
+version: 0.1.0
+date:    Wed Jun 25 12:42:32 PDT 2014
 changes:
 - First Release
+- Ported from Kwim-Plugin-badge
