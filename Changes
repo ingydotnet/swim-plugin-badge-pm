@@ -1,4 +1,9 @@
 ---
+version: 0.1.1
+date:    Wed Jun 25 12:51:39 PDT 2014
+changes:
+- Badge pod didn't take on first release.
+---
 version: 0.1.0
 date:    Wed Jun 25 12:42:32 PDT 2014
 changes:

@@ -10,7 +10,9 @@ See http://github.com/ingydotnet/swim-pm#readme
 
 Swim::Plugin::badge - Swim Plugin for Badges
 
-<badge travis coveralls ingydotnet/swim-plugin-badge-pm>
+=for html
+<a href="https://travis-ci.org/ingydotnet/swim-plugin-badge-pm"><img src="https://travis-ci.org/ingydotnet/swim-plugin-badge-pm.png" alt="swim-plugin-badge-pm"></a>
+<a href="https://coveralls.io/r/ingydotnet/swim-plugin-badge-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/swim-plugin-badge-pm/badge.png" alt="swim-plugin-badge-pm"></a>
 
 =head1 SYNOPSIS
 
