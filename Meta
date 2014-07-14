@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: Swim-Plugin-badge
-version: 0.1.1
+version: 0.1.2
 abstract: Swim Badge Image Support
 homepage: http://swimtext.org
 
@@ -20,9 +20,9 @@ requires:
   Swim: 0.1.2
 
 devel:
-  git: git@github.org/ingydotnet/swim-plugin-badge-pm
+  git: https://github.com/ingydotnet/swim-plugin-badge-pm
+  bug: https://github.com/ingydotnet/swim-plugin-badge-pm/issues
   irc: irc.freenode.net#swimtext
-  bug: https://github.com/ingydotnet/swim-plugin-badge-pm/issues/
 
 =cpan:
   include_testml: 1

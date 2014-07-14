@@ -1,4 +1,9 @@
 ---
+version: 0.1.2
+date:    Sun Jul 13 22:14:29 PDT 2014
+changes:
+- Add Contributing file
+---
 version: 0.1.1
 date:    Wed Jun 25 12:51:39 PDT 2014
 changes:
