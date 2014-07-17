@@ -1,4 +1,9 @@
 ---
+version: 0.1.3
+date:    Thu Jul 17 10:44:07 PDT 2014
+changes:
+- Depend on a new swim that deps on a new Pegex
+---
 version: 0.1.2
 date:    Sun Jul 13 22:14:29 PDT 2014
 changes:
