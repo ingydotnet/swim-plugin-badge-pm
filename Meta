@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Swim-Plugin-badge
-version: 0.1.5
+version: 0.1.6
 abstract: Swim Badge Image Support
 homepage: http://swimtext.org
 language: perl
@@ -27,6 +27,3 @@ devel:
 
 =zild:
   include_testml: 1
-
-=travis:
-  testml: yes
