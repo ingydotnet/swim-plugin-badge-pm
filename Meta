@@ -1,19 +1,20 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: Swim-Plugin-badge
-version: 0.1.4
+version: 0.1.5
 abstract: Swim Badge Image Support
 homepage: http://swimtext.org
-
+language: perl
 license: perl
-copyright: 2014. Ingy döt Net.
+copyright: 2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
 
 requires:
   perl: 5.8.1
@@ -24,10 +25,8 @@ devel:
   bug: https://github.com/ingydotnet/swim-plugin-badge-pm/issues
   irc: irc.freenode.net#swimtext
 
-=cpan:
+=zild:
   include_testml: 1
 
 =travis:
-  type: perl
   testml: yes
-  irc: irc.freenode.net#swimtext
