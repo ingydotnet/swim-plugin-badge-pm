@@ -1,9 +1,4 @@
-Swim::Plugin::badge
-===================
-
-Swim Plugin for Badges
-
-<badge travis coveralls ingydotnet/swim-plugin-badge-pm>
+<<<cpan-head>>>
 
 = Synopsis
 
@@ -25,3 +20,5 @@ This program is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
 
 See http://www.perl.com/perl/misc/Artistic.html
+
+<<<cpan-tail>>>
