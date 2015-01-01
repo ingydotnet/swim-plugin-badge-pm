@@ -1,5 +1,5 @@
 package Swim::Plugin::badge;
-our $VERSION = '0.1.7';
+our $VERSION = '0.1.8';
 
 package Swim::Pod;
 

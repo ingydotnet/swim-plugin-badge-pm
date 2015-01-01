@@ -1,4 +1,9 @@
 ---
+version: 0.1.8
+date:    Wed Dec 31 21:32:28 PST 2014
+changes:
+- Fix doc glitch.
+---
 version: 0.1.7
 date:    Wed Dec 31 15:53:15 PST 2014
 changes:
