@@ -1,3 +1,6 @@
+use strict;
+use warnings;
+
 package Swim::Plugin::badge;
 our $VERSION = '0.1.8';
 
